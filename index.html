@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- import de la police "Nunito Sans" via google font "Weights: 300, 600, 800"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+
+    <!-- import icone "Dark Mode"-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- import icone "Search"-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+
+    <!-- import icone "Expand More" et "Expand Less" pour dropdown menu -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,200,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,200,0,0" />
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Countries API</title>
+</head>
+
+<body>
+
+    <!-- En tête de la page -->
+    <header>
+        <div class="container">
+            <div class="element1">
+                <h3>Where in the world?</h3>
+            </div>
+            <button class="toggle">
+                <span class="material-symbols-rounded">dark_mode</span>
+                <p>Dark Mode</p>
+            </button>
+        </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <div class="flex-container">
+        <form class="search-bar">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" name="search" placeholder="Search for a country...">
+        </form>
+        <div class="dropdown dropbtn">
+            Filter by Region</button>
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+            <div class="dropdown-content">
+                <ul>
+                    <li><a href="#">Africa</a></li>
+                    <li><a href="#">America</a></li>
+                    <li><a href="#">Asia</a></li>
+                    <li><a href="#">Europe</a></li>
+                    <li><a href="#">Oceania</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Contenu de la page -->
+    <div id="donneesAPI"></div>
+
+</body>
+<!-- JS -->
+<script src="script.js"></script>
+
+</html>
