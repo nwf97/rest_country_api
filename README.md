@@ -1,12 +1,17 @@
-# Projet Countries API
+# Rest Country API
 
-Ce projet utilise l'API Rest Countries pour afficher des informations sur des pays aléatoires.
+This is a web application that utilizes the Rest Countries API to display information about countries.
 
-## Fonctionnalités
+## Features
 
 - Affichage de 8 pays aléatoires à chaque chargement de la page
-- Affichage du drapeau, du nom, de la population, de la région et de la capitale de chaque pays
-- Requête de l'API Rest Countries pour récupérer les données des pays
+- Filtrage des pays par continent.
+- Recherche de pays par nom.
+
+## Modifications récentes
+
+- Refactorisation de l'affichage des pays pour afficher tous les pays disponibles.
+- Ajout de la fonction de filtrage pour afficher les résultats correspondant au continent sélectionné.
 
 ## Technologies utilisées
 
@@ -14,8 +19,8 @@ Ce projet utilise l'API Rest Countries pour afficher des informations sur des pa
 - CSS
 - JavaScript
 
-## Instructions d'utilisation
+## Utilisation
 
-1. Clonez ce référentiel sur votre machine locale.
-2. Ouvrez le fichier `index.html` dans votre navigateur.
-3. Les pays seront automatiquement affichés.
+1. Clonez ce dépôt : `git clone https://github.com/votre-utilisateur/rest-country-api.git`
+2. Accédez au répertoire du projet : `cd rest-country-api`
+3. Ouvrez le fichier index.html dans votre navigateur pour utiliser l'application.
