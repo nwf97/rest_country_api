@@ -1,10 +1,10 @@
 # Rest Country API
 
-This is a web application that utilizes the Rest Countries API to display information about countries.
+Ce projet est une application web qui utilise l'API Rest Countries pour afficher des informations sur les pays.
 
-## Features
+## Fonctionnalités
 
-- Affichage de 8 pays aléatoires à chaque chargement de la page
+- Affichage de tous les pays disponibles.
 - Filtrage des pays par continent.
 - Recherche de pays par nom.
 
@@ -12,7 +12,7 @@ This is a web application that utilizes the Rest Countries API to display inform
 
 - Refactorisation de l'affichage des pays pour afficher tous les pays disponibles.
 - Ajout de la fonction de filtrage pour afficher les résultats correspondant au continent sélectionné.
-
+  
 ## Technologies utilisées
 
 - HTML
